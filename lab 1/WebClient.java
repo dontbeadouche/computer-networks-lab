@@ -24,7 +24,7 @@ public class WebClient{
     													// using IP address and port number
     s_out = new PrintWriter(client.getOutputStream(),true);		// attach the printwriter to client socket
 
-    System.out.println("Connected to sever socket of google");
+    System.out.println("Connected to server socket of google");
 
     String FirstHTTPRequest = "GET / HTTP/1.1\r\n";
     String SecondReq = "Host: www.google.com\r\n\r\n";
